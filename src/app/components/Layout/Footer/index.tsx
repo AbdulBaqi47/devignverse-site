@@ -34,10 +34,10 @@ const Footer = () => {
           <div className='sm:col-span-6 lg:col-span-3'>
             <div className='flex shrink-0 items-center border-right'>
               <Image
-                src='/images/logo/logo-white.svg'
+                src='/images/logo/devign-logo-white.png'
                 alt='logo'
-                width={214}
-                height={55}
+                width={160}
+                height={50}
               />
             </div>
           </div>
