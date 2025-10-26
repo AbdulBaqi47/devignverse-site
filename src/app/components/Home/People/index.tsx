@@ -30,17 +30,31 @@ const People = () => {
           </div>
           <div className='col-span-6 flex justify-center flex-col gap-4 lg:pl-24 mt-10 lg:mt-0 '>
             <h2 className='text-midnight_text text-center lg:text-start'>
-              Trusted by over 100k+ users worldwide.
+              Empowering the Next Digital Universe
+            </h2>
+            <h2 className='text-midnight_text text-center lg:text-start'>
+              Where Creativity Codes Reality
+            </h2>
+            <h2 className='text-midnight_text text-center lg:text-start'>
+              One Verse. Infinite Possibilities.
             </h2>
             <p className='text-black/75 text-lg font-normal text-center lg:text-start max-w-md mx-auto lg:mx-0'>
-              PaidIn helps you manage bills, track spending, and control your cards—all in one simple app.
+              Devign Verse is a design-led, engineering-driven studio transforming bold ideas into market-ready digital products. From concept to code, the team blends UI brilliance and backend strength to accelerate innovation across industries.
             </p>
-            <Link
-              href={'/'}
-              className='text-primary hover:text-blue-700 text-lg font-medium flex items-center gap-2 mx-auto lg:mx-0'>
-              Learn more
-              <Icon icon='tabler:arrow-right' className='text-2xl' />
-            </Link>
+            <div className='flex gap-4 mx-auto lg:mx-0'>
+              <Link href={'/#contact'}>
+                <button className='text-primary hover:text-blue-700 text-lg font-medium flex items-center gap-2'>
+                  Get in Touch
+                  <Icon icon='tabler:arrow-right' className='text-2xl' />
+                </button>
+              </Link>
+              <Link href={'/#case-studies'}>
+                <button className='text-primary hover:text-blue-700 text-lg font-medium flex items-center gap-2'>
+                  Explore Our Work
+                  <Icon icon='tabler:arrow-right' className='text-2xl' />
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

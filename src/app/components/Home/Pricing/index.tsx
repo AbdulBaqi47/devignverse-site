@@ -56,10 +56,10 @@ const Pricing = () => {
         className='absolute bottom-[0px] right-[90px] opacity-5'
       />
       <div className='container px-4'>
-        <h2 className='text-center'>Our Pricing Plan.</h2>
+        <h2 className='text-center'>Turning Concepts into Compelling Mobile Experiences</h2>
 
         <p className='text-lg font-normal text-center text-black/60 pt-5 max-w-2xl mx-auto'>
-          Simple, transparent, and built to scale with your needs. Choose the plan that fits your lifestyle — no hidden fees, ever.
+          Devign Verse delivers high-performance mobile applications that blend speed, design, and functionality. Apps are built for both iOS and Android using React Native and Flutter, optimized to drive engagement and scalability from day one.
         </p>
 
         {/* Yearly/Monthly Toggle Buttons */}

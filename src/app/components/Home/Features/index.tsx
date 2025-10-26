@@ -31,12 +31,13 @@ const Features = () => {
     <section id='features'>
       <div className='container'>
         <h2 className='text-midnight_text text-center mb-5 max-w-xl mx-auto sm:leading-16'>
-          Everything You Need. Built In.
+          Design Thinking. Development Power.
+        </h2>
+        <h2 className='text-midnight_text text-center mb-5 max-w-xl mx-auto sm:leading-16'>
+          Innovative Design. Scalable Development.
         </h2>
         <p className='text-black/60 text-lg text-center md:max-w-[60%] mx-auto'>
-          Stay on top of your spending, bills, and cards — all from one place.
-          PaidIn helps you manage your money with clarity, control, and zero
-          hassle.
+          Devign Verse combines design thinking and development power to deliver digital products that perform. Whether scaling a startup or modernizing enterprise systems, the studio builds dependable experiences that drive measurable outcomes.
         </p>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10'>
           {loading

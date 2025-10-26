@@ -95,7 +95,7 @@ const Header: React.FC = () => {
             ))}
           </nav>
           <div className='flex items-center gap-4'>
-            <Link
+            {/* <Link
               href='#'
               className='hidden lg:block bg-transparent text-primary border hover:bg-primary border-primary hover:text-white px-6 py-2 rounded-full font-medium text-base'
               onClick={() => {
@@ -120,8 +120,8 @@ const Header: React.FC = () => {
                   <Signin />
                 </div>
               </div>
-            )}
-            <Link
+            )} */}
+            {/* <Link
               href='#'
               className='hidden lg:block bg-primary text-white hover:bg-transparent hover:text-primary border border-primary px-6 py-2 rounded-full font-medium text-base'
               onClick={() => {
@@ -146,7 +146,12 @@ const Header: React.FC = () => {
                   <SignUp />
                 </div>
               </div>
-            )}
+            )} */}
+            <Link
+              href='#contact'
+              className='hidden lg:block bg-primary text-white hover:bg-transparent hover:text-primary border border-primary px-6 py-2 rounded-full font-medium text-base'>
+              Get Quotation
+            </Link>
             <button
               onClick={() => setNavbarOpen(!navbarOpen)}
               className='block lg:hidden p-2 rounded-lg'
@@ -181,7 +186,7 @@ const Header: React.FC = () => {
               <MobileHeaderLink key={index} item={item} />
             ))}
             <div className='mt-4 flex flex-col gap-4 w-full'>
-              <Link
+              {/* <Link
                 href='#'
                 className='bg-transparent border border-primary text-primary px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white'
                 onClick={() => {
@@ -198,6 +203,12 @@ const Header: React.FC = () => {
                   setNavbarOpen(false)
                 }}>
                 Sign Up
+              </Link> */}
+              <Link
+                href='#contact'
+                className='bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-700'
+                onClick={() => setNavbarOpen(false)}>
+                Get Quotation
               </Link>
             </div>
           </nav>

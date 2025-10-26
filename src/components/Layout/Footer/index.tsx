@@ -86,12 +86,8 @@ const footer = () => {
         </div>
         <div className='pt-12 pb-10 lg:flex items-center justify-between border-t border-t-white/30'>
           <h4 className='text-lg text-center md:text-start font-normal text-white opacity-60'>
-            @2025.All rights reserved by{' '}
-            <Link
-              href='https://getnextjstemplates.com/'
-              className='hover:text-primary'>
-              GetNextJs Templates
-            </Link>
+            @2025.All rights reserved by Devign Verse
+            
           </h4>
           <div className='flex gap-5 mt-6 md:mt-0 justify-center md:justify-start'>
             <h4 className='opacity-60 text-lg font-normal text-white'>

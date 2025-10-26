@@ -17,18 +17,28 @@ const Payment = () => {
           </div>
           <div className='col-span-6 flex flex-col gap-5 justify-center'>
             <h2 className='text-midnight_text text-center lg:text-start sm:leading-14 leading-12'>
-              Now it’s time to change the way you pay.
+              From Prototype to Production
+            </h2>
+            <h2 className='text-midnight_text text-center lg:text-start sm:leading-14 leading-12'>
+              Fast, Secure, and Scalable
             </h2>
             <p className='text-black/75 text-lg font-normal text-center lg:text-start sm:leading-140 max-w-2xl lg:max-w-lg mx-auto lg:mx-0'>
-              Managing payments shouldn’t be stressful. PaidIn helps you track,
-              plan, and stay ahead — no missed deadlines, no surprises.
+              Devign Verse engineers custom web applications optimized for performance and growth. Using React, Next.js, and Node.js, the team creates platforms that stay fast under pressure and flexible under change.
             </p>
-            <Link
-              href={'/'}
-              className='text-primary hover:text-blue-700 text-lg font-medium flex items-center gap-2 mx-auto lg:mx-0'>
-              Learn more
-              <Icon icon='tabler:arrow-right' className='text-2xl' />
-            </Link>
+            <div className='flex gap-4 mx-auto lg:mx-0'>
+              <Link href={'/#contact'}>
+                <button className='text-primary hover:text-blue-700 text-lg font-medium flex items-center gap-2'>
+                  Start a Web Project
+                  <Icon icon='tabler:arrow-right' className='text-2xl' />
+                </button>
+              </Link>
+              <Link href={'/#case-studies'}>
+                <button className='text-primary hover:text-blue-700 text-lg font-medium flex items-center gap-2'>
+                  Explore Recent Work
+                  <Icon icon='tabler:arrow-right' className='text-2xl' />
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

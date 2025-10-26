@@ -29,18 +29,30 @@ const Banner = () => {
               className='hidden xl:block absolute bottom-[-74px] right-[-38rem] opacity-5'
             />
             <div className='flex flex-col gap-5'>
-              <h1 className='text-6xl max-w-2xl leading-16 text-midnight_text text-center lg:text-start mx-auto lg:mx-0 pt-5'>
-                Smarter Spending Starts Here.
+              <h1 className='text-5xl max-w-2xl leading-16 text-midnight_text text-center lg:text-start mx-auto lg:mx-0 pt-5'>
+                The Universe of Development and Design
               </h1>
+              <h2 className='text-3xl max-w-2xl leading-14 text-midnight_text text-center lg:text-start mx-auto lg:mx-0'>
+                Empowering the Next Digital Universe
+              </h2>
+              <h2 className='text-3xl max-w-2xl leading-14 text-midnight_text text-center lg:text-start mx-auto lg:mx-0'>
+                Where Creativity Codes Reality
+              </h2>
+              <h2 className='text-3xl max-w-2xl leading-14 text-midnight_text text-center lg:text-start mx-auto lg:mx-0'>
+                One Verse. Infinite Possibilities.
+              </h2>
               <p className='text-black/75 text-lg font-normal text-center lg:text-start max-w-lg mx-auto lg:mx-0'>
-                Track your expenses, manage your cards, and never miss a bill —
-                all in one powerful, intuitive app. With PaidIn, your money
-                works for you.
+                Devign Verse is a design-led, engineering-driven studio transforming bold ideas into market-ready digital products. From concept to code, the team blends UI brilliance and backend strength to accelerate innovation across industries.
               </p>
-              <div className='mx-auto lg:mx-0'>
-                <Link href={'/#pricing'}>
+              <div className='mx-auto lg:mx-0 flex gap-4'>
+                <Link href={'/#contact'}>
                   <button className='text-white text-xl font-medium py-4 px-8 rounded-full transition duration-300 border border-primary bg-primary hover:bg-transparent hover:cursor-pointer hover:text-primary'>
-                    Get started
+                    Get in Touch
+                  </button>
+                </Link>
+                <Link href={'/#portfolio'}>
+                  <button className='text-primary text-xl font-medium py-4 px-8 rounded-full transition duration-300 border border-primary bg-transparent hover:bg-primary hover:cursor-pointer hover:text-white'>
+                    Explore Our Work
                   </button>
                 </Link>
               </div>

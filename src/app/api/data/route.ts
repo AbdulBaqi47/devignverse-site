@@ -8,10 +8,10 @@ import { footerlLinksData } from '@/app/types/footerlinks'
 
 const HeaderData: headerItem[] = [
   { label: 'Product', href: '/#product' },
-  { label: 'Pricing', href: '/#pricing' },
+  { label: 'Workables', href: '/#portfolio' },
   { label: 'Features', href: '/#features ' },
   { label: 'Contact Us', href: '/#contact ' },
-  { label: 'Docs', href: '/documentation' },
+  // { label: 'Docs', href: '/documentation' },
 ]
 
 const FeatureData: featureData[] = [

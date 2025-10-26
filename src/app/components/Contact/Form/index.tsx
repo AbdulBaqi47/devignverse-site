@@ -74,7 +74,7 @@ const ContactForm = () => {
       <div className='container'>
         <div className='relative'>
           <h2 className='mb-9 text-center'>
-            Get in Touch
+            Let’s Build Your Next Digital Universe.
           </h2>
           <form
             onSubmit={handleSubmit}
