@@ -64,6 +64,19 @@
   .container {
     @apply max-w-7xl mx-auto w-full px-4;
   }
+
+  .fast-pulse {
+    animation: fastPulse 1.2s ease-in-out infinite;
+  }
+
+  @keyframes fastPulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
 }
 
 html {
